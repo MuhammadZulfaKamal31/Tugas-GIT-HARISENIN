@@ -513,8 +513,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
+.static {
+  position: static;
 }
 
 .relative {
@@ -527,6 +527,10 @@ video {
 
 .top-0 {
   top: 0px;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .float-right {
@@ -556,11 +560,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .p-10 {
